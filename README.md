@@ -31,7 +31,7 @@ PCA and variables correlation (Only numerical non-categorical or dichotomus vari
     PCA & Organophosphates
     PCA & Metals
  
-## 2. Deep Learning Modeling with Multi-Output Regression
+## 2. Deep Learning Modeling with Multi-Output Regression (Python - Keras/TensorFlow)
 Instead of using PCA transfor and to include all variables, deep learning could be a solution, and mdata modeling could be obtained by implemeting a Neural Network for analysis
 
 
