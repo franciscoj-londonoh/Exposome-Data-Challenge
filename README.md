@@ -51,7 +51,7 @@ PCA and variables correlation (Only numerical non-categorical or dichotomus vari
  
 ## 2. [Deep Learning Modeling](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Part2_DL_MultiOutput_Regression.ipynb) with Multi-Output Regression (Python - Keras/TensorFlow)
 
-Instead of using PCA transfor and to include all variables, deep learning could be a solution, and mdata modeling could be obtained by implemeting a Neural Network for analysis
+Instead of using PCA transformation, all variables could be analyzed by using a deep learning approach, modeling the data with the implementation of a Neural Network with Multi-Output Regression. 
 
 ## Conclusions
 PCA implementation allows high dimensionality reduction of the Exposome data that can to use less complex and computing challenging models but some interpretability and partial information could be compromise in this case. 
