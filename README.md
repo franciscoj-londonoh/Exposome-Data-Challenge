@@ -14,11 +14,14 @@ The available Exposome dataset includes multiple health outcomes (continuous and
 ### PCA
 In general, the Exposome data is high dimensional, thus introducing several challenges for data cleaning, exploring, analysis and/or visualization. Thus, one potential pre-processing step of this type of datasets could include a dimensionality reduction phase. In this category, PCA transform can be considered an interesting possibility to explore, even if a compromise must be made since the new space has less interpretability but hidden trends could be also identified.
 
-![PCA_Exp](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Images/PCA/PCA_exposome.png)
 
 Reduction of the dimensionality
+![PCA_Exp](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Images/PCA/PCA_exposome.png)
+
 
 Phenotype clustering with PCA
+![PCA_IQ](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Images/PCA/PCA_Exp-IQ.png)
+
 
 
 PCA and variables correlation (Only numerical non-categorical or dichotomus variables)
@@ -46,9 +49,9 @@ PCA and variables correlation (Only numerical non-categorical or dichotomus vari
     PCA & Organophosphates
     PCA & Metals
  
-## 2. Deep Learning Modeling with Multi-Output Regression (Python - Keras/TensorFlow)
-Instead of using PCA transfor and to include all variables, deep learning could be a solution, and mdata modeling could be obtained by implemeting a Neural Network for analysis
+## 2. [Deep Learning Modeling](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Part2_DL_MultiOutput_Regression.ipynb) with Multi-Output Regression (Python - Keras/TensorFlow)
 
+Instead of using PCA transfor and to include all variables, deep learning could be a solution, and mdata modeling could be obtained by implemeting a Neural Network for analysis
 
 ## Conclusions
 PCA implementation allows high dimensionality reduction of the Exposome data that can to use less complex and computing challenging models but some interpretability and partial information could be compromise in this case. 
