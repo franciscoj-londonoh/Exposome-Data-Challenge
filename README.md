@@ -9,16 +9,20 @@ The available Exposome dataset includes multiple health outcomes (continuous and
 
  
 ### Correlation
+![Exp_Corr](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Images/PCA/Corr_exposome.png)
 
 ### PCA
 In general, the Exposome data is high dimensional, thus introducing several challenges for data cleaning, exploring, analysis and/or visualization. Thus, one potential pre-processing step of this type of datasets could include a dimensionality reduction phase. In this category, PCA transform can be considered an interesting possibility to explore, even if a compromise must be made since the new space has less interpretability but hidden trends could be also identified.
 
+![PCA_Exp](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Images/PCA/PCA_exposome.png)
+
 Reduction of the dimensionality
 
 Phenotype clustering with PCA
-![Exp_Corr](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Images/PCA/Corr_exposome.png)
+
 
 PCA and variables correlation (Only numerical non-categorical or dichotomus variables)
+![PCA_Var](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Images/PCA/PCA_Variables.png)
 
   By family
   
