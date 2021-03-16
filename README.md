@@ -8,9 +8,13 @@
 ### PCA
 
 Reduction of the dimensionality
+
 Phenotype clustering with PCA
+
 PCA and variables correlation (Only numerical non-categorical or dichotomus variables)
+
   By family
+  
     PCA & Lifestyle
     PCA & Smoke
     PCA & Social economic
