@@ -31,7 +31,7 @@ The color dots represent the "Intelligence quotient at 6-11 years old - Total of
 
   * By family
   
-  All images are available in [here](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/tree/main/Images/PCA)
+  All images are available [here](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/tree/main/Images/PCA)
   
     PCA & Lifestyle
     PCA & Smoke
