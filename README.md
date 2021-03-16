@@ -11,6 +11,7 @@ The available Exposome dataset includes multiple health outcomes (continuous and
 ### Correlation
 
 ### PCA
+In general, the Exposome data is high dimensional, thus introducing several challenges for data cleaning, exploring, analysis and/or visualization. Thus, one potential pre-processing step of this type of datasets could include a dimensionality reduction phase. In this category, PCA transform can be considered an interesting possibility to explore, even if a compromise must be made since the new space has less interpretability but hidden trends could be also identified.
 
 Reduction of the dimensionality
 
@@ -45,7 +46,6 @@ Instead of using PCA transfor and to include all variables, deep learning could 
 
 
 ## Conclusions
-In general, the Exposome data is high dimensional, thus introducing several challenges to the 
-PCA allows the reduction of the dimensionality of the data to use less complex and computing challenging models but some interpretability and partial information could be compromise in this case. 
-Deep learning allows the use of massive amount of data with the compromise of having more complex models thus non-easeble interpretable which could be a challenge in specific contexts
-All in all, a compromise is necessary. Which compromise regarding data, computing resources, model complexity and interpretability, is according to the analysis and final application.
+PCA implementation allows high dimensionality reduction of the Exposome data that can to use less complex and computing challenging models but some interpretability and partial information could be compromise in this case. 
+Deep learning allows the use of massive amount of data with the compromise of having more complex models thus difficult to interpret which could be a challenge in specific contexts. 
+All in all, a compromise is necessary for either proposed approach to handle high dimensionality datasets. Which compromise regarding data, computing resources, model complexity and interpretability, should be based on the needed analysis and final application.
