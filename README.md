@@ -29,7 +29,7 @@ The color dots represent the "Intelligence quotient at 6-11 years old - Total of
 
 
 
-#### PCA and variables correlation (Only numerical non-categorical or dichotomus variables)
+#### PCA and variables correlation (Only numerical non-categorical nor dichotomus variables)
 ![PCA_Var](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Images/PCA/PCA_Variables.png)
 
   * By family
