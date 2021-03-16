@@ -5,7 +5,7 @@ The Exposome concept embraces the simultaneous exposure of individuals to multip
 The available Exposome dataset includes multiple health outcomes (continuous and categorical), multiple exposures, -omics and additional non-exposure variables (e.g., potential confounders). The data represents a real case scenario of exposome dataset (based on the HELIX project database) with multiple correlated variables (N>100 exposure variables) arising from general and personal environments at different time points, biological molecular data (multi-omics: DNA methylation, gene expression, proteins, metabolomics) and multiple clinical phenotypes. The population is drawn from a multi-center study which will represent the main confounding structure in the dataset.
 
 
-## 1. High dimensional data (Analysis in R)
+## Part 1: [High dimensional data](https://github.com/franciscoj-londonoh/Exposome-Data-Challenge/blob/main/Part1_Exposome_HighDimensionality.R) (Analysis using the R package '''rexposome''') 
 
  
 ### Correlation
@@ -16,6 +16,7 @@ In general, the Exposome data is high dimensional, thus introducing several chal
 Reduction of the dimensionality
 
 Phenotype clustering with PCA
+![EDA_heatmap](https://github.com/franciscoj-londonoh/ECG-based-Biometric-Identification/blob/main/Images/HeatMap.png)
 
 PCA and variables correlation (Only numerical non-categorical or dichotomus variables)
 
